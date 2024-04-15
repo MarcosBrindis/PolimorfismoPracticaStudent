@@ -1,0 +1,26 @@
+.alert {
+    -fx-background-color: #07304f;
+    -fx-text-fill:  #ab9b60;
+}
+
+.button {
+    -fx-background-color:  #ab9b60;
+    -fx-border-color:   #ab9b60;
+    -fx-border-radius: 24px;
+    -fx-background-radius:16PX;
+    -fx-font-family: "Yu Gothic UI Semibold";
+}
+
+.dialog-pane .label {
+    -fx-font-family: "Yu Gothic UI Semibold";
+    -fx-font-size: 14px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color:   #ab9b60;
+}
+
+.dialog-pane {
+    -fx-background-color: #07304f;
+}
