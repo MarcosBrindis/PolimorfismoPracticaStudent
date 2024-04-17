@@ -9,6 +9,17 @@ public class School {
       dataBase2=new DataBase2();
       dataBase3=new DataBase3();
     }
+    public void addStudent(Student student) {
+        dataBase.save(student);
+        dataBase2.save(student);
+        dataBase3.save(student);
+    }
+    public void updateStudent(Student student) {
+        dataBase.update(student);
+        dataBase2.update(student);
+        dataBase3.update(student);
+    }
+
     public DataBase1 getDataBase() {
         return dataBase;
     }

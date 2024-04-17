@@ -10,7 +10,6 @@ public class Student {
     private LocalDate birthdate;
     private int age;
     private String gender;
-
     private String email;
     private String curp;
     private Long phoneNumbre;
@@ -84,6 +83,7 @@ public class Student {
     public String toString() {
         return  id +" ----> "+ name;
     }
+
     public String imprimir() {
         String attributesString = "ID: " + id +
                 " Name: " + name  +

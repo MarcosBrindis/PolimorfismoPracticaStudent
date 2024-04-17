@@ -90,9 +90,7 @@ public class MainController {
                 return;
             }
             Student student=new Student(name,date,gender,email,curp,phone);
-            school.getDataBase().save(student);
-            school.getDataBase2().save(student);
-            school.getDataBase3().save(student);
+            school.addStudent(student);
 
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Added Successfully.");
@@ -138,9 +136,7 @@ public class MainController {
                 return;
             }
             Student studentModificado = new Student(studentSeleccionado.getId(),name, date, gender, email, curp, phone);
-            school.getDataBase().update(studentModificado);
-            school.getDataBase2().update(studentModificado);
-            school.getDataBase3().update(studentModificado);
+            school.updateStudent(studentModificado);
 
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Added Successfully.");
